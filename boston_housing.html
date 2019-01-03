@@ -13701,8 +13701,8 @@ Think about the pros and cons of adding more training points based on if the tra
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> Grid search technique is a grid with all the models (decision tree, naive bayes, etc.) and the options for our models (e.g: The kernel and the C value or max_depth, etc.) that we want to try. We then score them using a scoring function such as F1 score for exmaple for each of these models and hyperparameters and pick the model with the highest score. The end goal is to find the best model and best hyperparameters that fits best our data. It allows us to choose the best form without the hastle of manually going through all our possible models and hyperparameters combinations. It is a further automation step.
-<br/>To sum up, GridSearch will iterate through different models and hyperparameters we have selected and want to try for our data, iterate through and score all of these options using a scoring function and find the best predictive model for our data. The goal is to optimize the learning algorithm by finding the best model.</p>
+<p><strong>Answer:</strong> Grid search technique is a grid with all the hyperparameters for the model we want to test (e.g: The kernel and the C value or max_depth, etc.). We then score them using a scoring function such as F1 score for example for each of these hyperparameters and pick the final model with the highest score. The end goal is to find the hyperparameters that fits best our data. It allows us to choose the best form without the hastle of manually going through all our possible hyperparameters combinations. It is a further automation step.
+<br/>To sum up, GridSearch will iterate through different hyperparameters we have selected and want to try for our data, iterate through and score all of these options using a scoring function and find the best hyperparameter for our predictive model for our data. The goal is to optimize the learning algorithm by finding the best model.</p>
 
 </div>
 </div>
